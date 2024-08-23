@@ -1,0 +1,120 @@
+/* Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos pre-cabecera */
+.pre-header {
+    background-color: #f8f8f8;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+}
+
+/* Menu Hamburguesa */
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+    position: absolute;
+    top: 0.5em;
+    left: 1em;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    margin: 0 1.5em;
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+/* Cabecera */
+.header {
+    height: 50vh;
+    background-image: url('https://via.placeholder.com/1600x400');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 2em;
+
+}
+
+.header h1 {
+    font-size: 2.25em;
+    margin-bottom: 0.5em;
+}
+
+.header p {
+    font-size: 1.125em;
+}
+
+/* Sección Categorías */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 2.5em 1em;
+}
+
+.category {
+    text-align: center;
+    max-width: 90%;
+}
+
+.category img {
+    width: 100%;
+    border-radius: 0.6em;
+}
+
+.category h2 {
+    margin-top: 0.9em;
+    font-size: 1.25em;
+}
+
+/* Sección Rebajas */
+.sales {
+    background-color: #f0f0f0;
+    padding: 2.5em 1em;
+    text-align: center;
+}
+
+.sales h2 {
+    font-size: 1.5em;
+    margin-bottom: 1.25em;
+}
+
+.sales-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sales-banner img {
+    width: 18.75em;
+    height: 18.75em;
+    object-fit: cover;
+    border-radius: 0.6em;
+}
+
+.sales-text {
+    margin-left: 1.25em;
+    font-size: 1.25em;
+}
+
+/* Newsletter */
