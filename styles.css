@@ -162,5 +162,34 @@
 
 /* Footer */
 .footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1.25em 0;
+    font-size: 0.875em;
+}
+
+/* Media Queries */
+/* Movil (hasta 480px)*/
+@media (max-width: 480px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 4em;
+        left: 0;
+        width: 100%;
+        background-color: #f8f8f8;
+    }
+
+    .menu a {
+        margin: 1em 0;
+        font-size: 1.125em;
+    }
+
+    .menu-toggle:checked + .menu-icon + .menu {
+        display: flex;
+    }
+
     
 }
